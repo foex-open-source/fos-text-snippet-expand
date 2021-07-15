@@ -1,20 +1,20 @@
 {
-    "name":"FOS - Text Snippet Expand"
-   ,"version":"20.2.0"
-   ,"description":"Expands short text snippets in input fields. Define shortcuts for common phrases and watch them transform as you type.\r\n\u003Ch4\u003EFree Plug-in under MIT License\u003C\/h4\u003E\r\n\u003Cp\u003E\r\nAll FOS plug-ins are released under MIT License, which essentially means it is free for everyone to use, no matter if commercial or private use. \r\n\u003C\/p\u003E\r\n\u003Ch4\u003EOverview\u003C\/h4\u003E\r\n\u003Cp\u003EThe \u003Cstrong\u003EFOS - Text Snippet Expand\u003C\/strong\u003E dynamic action plug-in extends one or multiple input fields to listen for entered shortcuts (e.g. \"lol\") and immediately expands them to a long version (e.g. \"laughing out loud\"). This is similar to an auto-correct functionality.\r\n\u003C\/p\u003E\r\n\u003Cp\u003EThis plug-in works on Text Fields, Text Areas, and CKEditor4 fields (APEX native and the \"FOS - CKEditor4 plug-in\"), as well as in  Interactive Grids.\r\n\u003C\/p\u003E\r\n\u003Cp\u003EShortcuts and their expanded text are provided as a query. Additionally you can also define stop-characters for a shortcut, that\u0027s the key after which a shortcut is evaluated. Default is space, period, comma, question mark, exclamation mark.\r\n\u003C\/p\u003E"
+    "name":"FOS - Drag and Drop"
+   ,"version":"21.1.0"
+   ,"description":"Enable any list, card or table based region to allow drag \u0026 drop reordering.\r\n\u003Ch4\u003EFree Plug-in under MIT License\u003C\/h4\u003E\r\n\u003Cp\u003E\r\nAll FOS plug-ins are released under MIT License, which essentially means it is free for everyone to use, no matter if commercial or private use. \r\n\u003C\/p\u003E\r\n\u003Ch4\u003EOverview\u003C\/h4\u003E\r\n\u003Cp\u003EThe \u003Cstrong\u003EFOS - Drag and Drop\u003C\/strong\u003E dynamic action plug-in makes it possible to drag \u0026 drop elements inside a region. This could be a Cards region, a Badge list or basically everything that has a group of elements.\u003C\/p\u003E\r\n\u003Cp\u003EOn every change of the order of items an event is fired passing the necessary change information accessible via \"this.data\" within your dynamic action handler. Additionally you can execute PL\/SQL code to do an update of your database tables or execute some additional Javascript code.\u003C\/p\u003E\r\n\u003Cp\u003EThe plug-in is built around Shopify\u0027s Draggable library (https:\/\/github.com\/Shopify\/draggable).\u003C\/p\u003E"
    ,"keywords":[
-        "text"
-       ,"snippet"
-       ,"expand"
-       ,"shortcut"
-       ,"autocomplete"
+        "list"
+       ,"card"
+       ,"table"
+       ,"drag"
+       ,"drop"
     ]
    ,"license":"MIT"
    ,"commercial":"No"
    ,"commercially_supported":"Yes"
-   ,"homepage":"https:\/\/github.com\/foex-open-source\/fos-text-snippet-expand"
+   ,"homepage":"https:\/\/github.com\/foex-open-source\/fos-drag-and-drop"
    ,"bugs":{
-        "url":"https:\/\/github.com\/foex-open-source\/fos-text-snippet-expand\/issues"
+        "url":"https:\/\/github.com\/foex-open-source\/fos-drag-and-drop\/issues"
        ,"email":"support@fos.world"
     }
    ,"author":{
@@ -25,7 +25,7 @@
     }
    ,"repository":{
         "type":"git"
-       ,"url":"https:\/\/github.com\/foex-open-source\/fos-text-snippet-expand.git"
+       ,"url":"https:\/\/github.com\/foex-open-source\/fos-drag-and-drop.git"
     }
    ,"oracle":{
         "versions":[
@@ -41,10 +41,10 @@
                ,"20.2.0"
             ]
            ,"plugin":{
-                "internalName":"COM.FOS.TEXT_SNIPPET_EXPAND"
+                "internalName":"COM.FOS.DRAG_AND_DROP_LIST"
                ,"type":"dynamic action"
-               ,"demo":"https:\/\/fos.world\/ords\/f?p=10000:1110"
-               ,"previewImage":"https:\/\/fos.world\/ords\/fos_master_ws\/fos-image\/COM.FOS.TEXT_SNIPPET_EXPAND"
+               ,"demo":"https:\/\/fos.world\/ords\/f?p=10000:1130"
+               ,"previewImage":"https:\/\/fos.world\/ords\/fos_master_ws\/fos-image\/COM.FOS.DRAG_AND_DROP_LIST"
             }
         }
     }
