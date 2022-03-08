@@ -26,7 +26,7 @@ as
 
 begin
     --debug
-    if apex_application.g_debug
+    if apex_application.g_debug and substr(:DEBUG,6) >= 6
     then
         apex_plugin_util.debug_dynamic_action
           ( p_plugin         => p_plugin
