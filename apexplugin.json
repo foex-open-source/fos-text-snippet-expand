@@ -1,6 +1,6 @@
 {
     "name":"FOS - Text Snippet Expand"
-   ,"version":"21.2.0"
+   ,"version":"22.1.0"
    ,"description":"Expands short text snippets in input fields. Define shortcuts for common phrases and watch them transform as you type.\r\n\u003Ch4\u003EFree Plug-in under MIT License\u003C\/h4\u003E\r\n\u003Cp\u003E\r\nAll FOS plug-ins are released under MIT License, which essentially means it is free for everyone to use, no matter if commercial or private use. \r\n\u003C\/p\u003E\r\n\u003Ch4\u003EOverview\u003C\/h4\u003E\r\n\u003Cp\u003EThe \u003Cstrong\u003EFOS - Text Snippet Expand\u003C\/strong\u003E dynamic action plug-in extends one or multiple input fields to listen for entered shortcuts (e.g. \"lol\") and immediately expands them to a long version (e.g. \"laughing out loud\"). This is similar to an auto-correct functionality.\r\n\u003C\/p\u003E\r\n\u003Cp\u003EThis plug-in works on Text Fields, Text Areas, and CKEditor4 fields (APEX native and the \"FOS - CKEditor4 plug-in\"), as well as in  Interactive Grids.\r\n\u003C\/p\u003E\r\n\u003Cp\u003EShortcuts and their expanded text are provided as a query. Additionally you can also define stop-characters for a shortcut, that\u0027s the key after which a shortcut is evaluated. Default is space, period, comma, question mark, exclamation mark.\r\n\u003C\/p\u003E"
    ,"keywords":[
         "text"

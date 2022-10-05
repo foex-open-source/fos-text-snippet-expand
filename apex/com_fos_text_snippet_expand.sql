@@ -156,7 +156,7 @@ wwv_flow_api.create_plugin(
 '</p>',
 '<p>Shortcuts and their expanded text are provided as a query. Additionally you can also define stop-characters for a shortcut, that''s the key after which a shortcut is evaluated. Default is space, period, comma, question mark, exclamation mark.',
 '</p>'))
-,p_version_identifier=>'21.2.0'
+,p_version_identifier=>'22.1.0'
 ,p_about_url=>'https://fos.world'
 ,p_plugin_comment=>wwv_flow_string.join(wwv_flow_t_varchar2(
 '// Settings for the FOS browser extension',
